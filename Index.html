@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Index.html">
+                    <p><span class="logo-fantasy">Fantasy</span> Futbol</p>
+                </a>
+            </div>            
+            <div class="menu">
+                <ul>
+                    <li><a href="camisetas.html" class="scroll-link">Camisetas</a></li>
+                    <li><a href="zapatillas.html" class="scroll-link">Zapatillas</a></li>
+                    <li><a href="productos.html" class="scroll-link">Guantes</a></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Buscar...">
+                <button class="search-button">🔍</button>
+            </div>
+
+            <div class="cart-container">
+                <a href="#" class="cart-button">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        
+        <div class="slider">
+            <div class="slides">
+               <a href=""><img src="img/banner-mercurial-zoom-air.jpg" class="slide" alt="Imagen 1"></a> 
+               <a href=""> <img src="img/puma.jpg" class="slide" alt="Imagen 2"></a>
+                <a href=""><img src="img/banner-speedtrail-ok.jpg" class="slide" alt="Imagen 3"></a>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <section class="featured-products">
+            <h2>Productos Destacados</h2>
+            <div class="featured-products-grid">
+                <div class="featured-product-card">
+                    <img src="img/botas.webp" alt="Botas">
+                    <h3>Botas de Fútbol</h3>
+                    <a href="zapatillas.html" class="btn">Ver Más</a>
+                </div>
+                <div class="featured-product-card">
+                    <img src="img/camilamine.jpg" alt="Camisetas">
+                    <h3>Camisetas</h3>
+                    <a href="camisetas.html" class="btn">Ver Más</a>
+                </div>
+                <div class="featured-product-card">
+                    <img src="img/balones.webp" alt="Balones">
+                    <h3>Balones de Fútbol</h3>
+                    <a href="camisetas.html" class="btn">Ver Más</a>
+                </div>
+                <div class="featured-product-card">
+                    <img src="img/guantes.webp" alt="Guantes">
+                    <h3>Guantes de Portero</h3>
+                    <a href="camisetas.html" class="btn">Ver Más</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-nosotros">
+            <div class="contenedor-nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>En <strong>Fantasy Futbol</strong>, somos apasionados por el deporte rey. Nos especializamos en ofrecerte los mejores productos de fútbol, desde camisetas hasta zapatillas, guantes y mucho más. Nuestro objetivo es que cada jugador, aficionado o coleccionista encuentre aquí lo que necesita para vivir su pasión al máximo.</p>
+                <div class="valores">
+                    <div class="valor">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Calidad Garantizada</h3>
+                        <p>Ofrecemos productos de las mejores marcas, asegurando durabilidad y el mejor rendimiento en cada entrenamiento o partido.</p>
+                    </div>
+                    <div class="valor">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h3>Envíos Rápidos</h3>
+                        <p>Nos comprometemos a que recibas tu pedido lo antes posible, sin importar en qué parte del mundo te encuentres.</p>
+                    </div>
+                    <div class="valor">
+                        <i class="fas fa-headset"></i>
+                        <h3>Atención al Cliente</h3>
+                        <p>Nos encanta escuchar a nuestros clientes. Si tienes alguna duda o necesitas asesoramiento, estamos aquí para ayudarte en todo momento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
