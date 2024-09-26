@@ -39,7 +39,7 @@ nav {
 .logo {
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #fff;
 }
@@ -403,3 +403,99 @@ nav {
     transform: translateY(-5px);
 }
 
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    font-size: 16px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: -50px;
+}
+
+.footer-section h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
+
+/* Newsletter Subscription Form */
+.newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.newsletter button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #333;
+    color: #4CAF50;
+}
