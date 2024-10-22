@@ -499,3 +499,11 @@ footer {
     background-color: #333;
     color: #4CAF50;
 }
+.featured-products .featured-product-cardaside model-viewer{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
